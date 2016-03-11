@@ -8,6 +8,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 
+Plugin 'lpenz/vimcommander'
+
 " Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Shougo/vimproc.vim'
 " Plugin 'tpope/vim-rvm'
@@ -230,6 +232,9 @@ let g:syntastic_php_phpcs_args='--standard=PSR2 -n'
 
 nmap <F8> :TagbarToggle<CR>
 nnoremap <F5> :UndotreeToggle<cr>
+
+noremap <silent> <F11> :cal VimCommanderToggle()<CR>
+noremap <silent> <F12> :cal VimShell<CR>
 
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
