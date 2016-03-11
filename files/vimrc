@@ -234,7 +234,7 @@ nmap <F8> :TagbarToggle<CR>
 nnoremap <F5> :UndotreeToggle<cr>
 
 noremap <silent> <F11> :cal VimCommanderToggle()<CR>
-noremap <silent> <F12> :cal VimShell()<CR>
+noremap <silent> <F12> :VimShell<CR>
 
 " Map ctrl-movement keys to window switching
 map <C-k> <C-w><Up>
